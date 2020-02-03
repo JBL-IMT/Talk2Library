@@ -1,0 +1,45 @@
+{
+    "name": "IMA-IoT", 
+    "version": "1.0.3", 
+    "keywords": [
+        "other"
+    ], 
+    "description": "<font color=\"#0066CC\">Library for the Talk2 Boards.</font>", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "platforms": [
+        "atmelavr"
+    ], 
+    "authors": [
+        {
+            "email": null, 
+            "url": null, 
+            "maintainer": false, 
+            "name": "Wisen"
+        }, 
+        {
+            "email": "talk2@wisen.com.au", 
+            "url": null, 
+            "maintainer": true, 
+            "name": "Talk2 by Wisen"
+        }
+    ], 
+    "repository": {
+        "type": "git", 
+        "url": "https://github.com/JBL-IMT/Talk2Library/"
+    }, 
+    "homepage": "http://talk2.wisen.com.au", 
+    "export": {
+        "include": null, 
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ]
+    }, 
+    "id": 697
+}
