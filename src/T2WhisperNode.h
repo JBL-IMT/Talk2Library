@@ -71,6 +71,7 @@
 
 /* Additional Libraries */
 #include <hal/T2Led.h>
+#include <hal/Button.h>
 #include <hal/T2Flash.h>
 #include <hal/T2DataBuffer.h>
 #include <protocol/T2Message.h>
