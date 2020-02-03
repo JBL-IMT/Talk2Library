@@ -44,7 +44,8 @@ void T2Message::setSerializedMessage(uint8_t * msg, uint8_t len)
 {
 
   //Extract Headers from the first 5 bytes
-  this->idx = (msg[0] & 0x1C) >> 2;
+  //this->idx = (msg[0] & 0x1C) >> 2;
+  this->idx = (msg[0] & 0x7C) >> 2;
   this->cmd = msg[0] & 0x03;
   this->sdx = msg[1];
   this->src = msg[2];
