@@ -8,7 +8,6 @@ class Button
    unsigned long int j;
 public :
   Button(int);
-  //static void inc();
   int getNumber();
   void check();
 
